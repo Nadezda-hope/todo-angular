@@ -1,0 +1,21 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+
+  &__wrapper {
+    position: relative;
+    top: 36px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #DA70D6;
+    border-radius: 20px;
+  }
+
+  &__title {
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+}

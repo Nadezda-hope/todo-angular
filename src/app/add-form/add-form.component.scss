@@ -1,0 +1,30 @@
+.add-form {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+
+  &__input {
+    flex-grow: 1;
+    height: 36px;
+    border: 1px solid #DA70D6;
+    border-radius: 4px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 26px;
+    background-color: #DA70D6;
+
+    &:active {
+      animation: hover 0.2s ease;
+      outline: none;
+    }
+  }
+}
